@@ -1,4 +1,3 @@
-# WAFL-MLP-Asynchronous
 -------
 Summary
 -------

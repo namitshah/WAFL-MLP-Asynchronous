@@ -1,0 +1,4 @@
+cd Documents/ELab
+source ELab/bin/activate
+cd WAFL-MLP-Asynchronous/src
+python3.11 NodeX.py
