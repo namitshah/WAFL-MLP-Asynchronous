@@ -1,8 +1,7 @@
 
 Summary
 -------
-This is an asynchronous implementation of the WAFL-MLP project.
-(https://github.com/jo2lxq/wafl/tree/main/WAFL-MLP)
+This is an asynchronous implementation of the [WAFL-MLP](https://github.com/jo2lxq/wafl/tree/main/WAFL-MLP) project.
 All the devices are assigned identifiers from 0 onwards 
 (Node0.py is 'device' 0, Node1.py is 'device' 1, and so on).
 
@@ -29,7 +28,7 @@ However, separation has been introduced by segmenting the datasets and having th
 
 Process of Execution:
 -------
-1) Run the requirements.txt file and ensure compatibility.
+1) Run the requirements.txt file and ensure compatibility (*Python 3.11.12).
 2) Run the Initializer.py file.
     Initializer.py prepares, segments and stores the datasets for the nodes in serialized form.
 3) Run the N Node python scripts in separate terminal windows.
@@ -43,6 +42,7 @@ Current Priorities:
     enable transfer of other important information between the nodes.
 
 
-NOTE: (2025/05/28)
+NOTE: (2025/05/30)
 -------
-The project can be executed directly, no need to import files from the WAFL-MLP project since all relevant files and sub-directories have been added here. Also, the archive has been removed.
+The project can be executed directly, no need to import files from the WAFL-MLP project since all relevant files and sub-directories have been added here. Also, the archive has been removed.  
+**Python Version used for testing: 3.11.12** 
